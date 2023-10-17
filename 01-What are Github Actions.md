@@ -10,3 +10,21 @@
 
 Github Actions = CI/CD + Code & Repository Management(code reviews/issue management etc.).
 
+## Key Elements
+
+### Workflows
+- Attached to a git Repository
+- Contain one or more Jobs
+- Triger on Events
+
+### Jobs
+- Define a runner (execution environment[Linux, Mac or Windows])
+- Contain one or more steps
+- Run in parallel(default) or sequential
+- Can be conditional
+
+## Steps 
+- Execute a shell script or an action
+- Can use custom or third party action
+- Steps are executed in order
+- can be conditional
